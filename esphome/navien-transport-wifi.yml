@@ -4,8 +4,8 @@ wifi:
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: !secret ${navien_ap_ssid_secret_name}
-    password: !secret ${navien_ap_password_secret_name}
+    ssid: !secret ${navien_ap_ssid}
+    password: !secret ${navien_ap_password}
 
 captive_portal:
   id: navien_portal
