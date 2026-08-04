@@ -8,7 +8,7 @@ substitutions:
   device_name: navien-heater # hostname & entity_id
   friendly_name: "Navien" # Displayed in HA frontend
   navien_home: htumanyan/navien
-  external_component_source: "github://htumanyan/navien" 
+  external_component_source: "github://vdudas/navien" 
 
 packages:
   navien:

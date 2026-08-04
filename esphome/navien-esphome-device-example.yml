@@ -13,7 +13,7 @@ wifi:
   domain: !secret esp_wifi_domain
 
 packages:
-  Navien.ATOM-Lite-ESP32: github://htumanyan/navien/esphome/navien-esphome-atom-lite-esp32.yml
+  Navien.ATOM-Lite-ESP32: github://vdudas/navien/esphome/navien-esphome-atom-lite-esp32.yml
 
 api:
   encryption:

@@ -37,7 +37,7 @@ logger:
   baud_rate: 0 #disable logging over uart
 
 dashboard_import:
-  package_import_url: github://htumanyan/navien/esphome/navien-esphome-atoms3-lite-tail485-esp32.yml
+  package_import_url: github://vdudas/navien/esphome/navien-esphome-atoms3-lite-tail485-esp32.yml
   import_full_config: false
 
 button:
