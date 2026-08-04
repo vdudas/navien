@@ -10,7 +10,8 @@ substitutions:
   platform: esp8266
   board: d1_mini
   external_component_source: components
- 
+  navien_ap_ssid_secret_name: ap_ssid
+  navien_ap_password_secret_name: ap_password
 
 esphome:
   # https://esphome.io/components/esphome

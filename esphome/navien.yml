@@ -4,6 +4,8 @@ substitutions:
   #   # https://esphome.io/guides/configuration-types.html#substitutions
   device_name: navien-heater # hostname & entity_id
   friendly_name: "Navien Gas Heater" # Displayed in HA frontend
+  navien_ap_ssid_secret_name: ap_ssid
+  navien_ap_password_secret_name: ap_password
 
 esphome:
   # https://esphome.io/components/esphome
@@ -24,8 +26,8 @@ wifi:
     
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: !secret ap_ssid
-    password: !secret ap_password
+    ssid: !secret ${navien_ap_ssid_secret_name}
+    password: !secret ${navien_ap_password_secret_name}
 
 captive_portal:
 
